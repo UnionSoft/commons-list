@@ -9,6 +9,9 @@ apply plugin: 'maven-publish'
 
 repositories {
     jcenter()
+    maven {
+        url "http://dl.bintray.com/drakandar/libs-release"
+    }
 }
 
 
@@ -19,7 +22,8 @@ dependencies {
     implementation 'commons-beanutils:commons-beanutils:1.8.3'
     implementation 'javax.servlet.jsp:javax.servlet.jsp-api:2.3.1'
     
-    implementation 'com.github.UnionSoft:commons-converter:991006'
+    implementation 'nl.unionsoft.commons:commons-converter:1.0.0'
+    
     implementation 'org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final'
     
     testImplementation 'org.codehaus.groovy:groovy-all:2.4.7'
