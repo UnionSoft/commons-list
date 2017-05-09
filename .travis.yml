@@ -1,0 +1,13 @@
+language: java
+
+script:
+  - ./gradlew clean assemble
+
+after_success:
+  - if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then ./gradlew bintrayUpload; fi
+
+
+branches:
+  only:
+  - master
+  
