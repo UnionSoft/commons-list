@@ -6,12 +6,12 @@ import java.util.List;
 import junit.framework.Assert;
 import nl.unionsoft.common.list.dto.SomeDto;
 import nl.unionsoft.common.list.dto.SomeOtherDto;
-import nl.unionsoft.common.list.model.ListRequest;
-import nl.unionsoft.common.list.model.ListResponse;
-import nl.unionsoft.common.list.model.ObjectRestriction;
-import nl.unionsoft.common.list.model.Restriction.Rule;
-import nl.unionsoft.common.list.model.Sort;
-import nl.unionsoft.common.list.model.Sort.Direction;
+import nl.unionsoft.commons.list.model.ListRequest;
+import nl.unionsoft.commons.list.model.ListResponse;
+import nl.unionsoft.commons.list.model.ObjectRestriction;
+import nl.unionsoft.commons.list.model.Sort;
+import nl.unionsoft.commons.list.model.Restriction.Rule;
+import nl.unionsoft.commons.list.model.Sort.Direction;
 
 import org.junit.Before;
 import org.junit.Ignore;

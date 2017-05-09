@@ -8,7 +8,7 @@ import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.TagSupport;
 
-import nl.unionsoft.common.list.model.ListResponse;
+import nl.unionsoft.commons.list.model.ListResponse;
 
 public class SortTag extends TagSupport {
 

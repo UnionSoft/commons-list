@@ -1,9 +1,9 @@
 package nl.unionsoft.common.list.worker;
 
-import nl.unionsoft.common.list.model.ListRequest;
-import nl.unionsoft.common.list.model.ListResponse;
 import nl.unionsoft.commons.converter.Converter;
 import nl.unionsoft.commons.converter.ConverterWithConfig;
+import nl.unionsoft.commons.list.model.ListRequest;
+import nl.unionsoft.commons.list.model.ListResponse;
 
 public interface ListRequestWorker {
 

@@ -1,4 +1,4 @@
-package nl.unionsoft.common.list.model;
+package nl.unionsoft.commons.list.model;
 
 public class PropertyRestriction extends Restriction {
     public PropertyRestriction (Rule rule, String property) {

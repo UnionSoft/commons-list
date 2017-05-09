@@ -9,8 +9,8 @@ import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
 import javax.servlet.jsp.tagext.TagSupport;
 
-import nl.unionsoft.common.list.model.ListResponse;
-import nl.unionsoft.common.list.model.Sort;
+import nl.unionsoft.commons.list.model.ListResponse;
+import nl.unionsoft.commons.list.model.Sort;
 
 public class PagingTag extends TagSupport {
 
