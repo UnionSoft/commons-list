@@ -1,4 +1,4 @@
-package nl.unionsoft.common.list.worker.impl;
+package nl.unionsoft.commons.list.worker.impl;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,7 +17,7 @@ import nl.unionsoft.commons.list.model.Restriction;
 import nl.unionsoft.commons.list.model.Sort;
 import nl.unionsoft.commons.list.model.Restriction.Rule;
 import nl.unionsoft.commons.list.model.Sort.Direction;
-import nl.unionsoft.common.list.worker.ListRequestWorker;
+import nl.unionsoft.commons.list.worker.ListRequestWorker;
 
 import org.apache.commons.beanutils.BeanComparator;
 import org.apache.commons.beanutils.BeanPredicate;

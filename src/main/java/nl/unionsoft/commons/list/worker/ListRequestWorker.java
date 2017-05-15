@@ -1,4 +1,4 @@
-package nl.unionsoft.common.list.worker;
+package nl.unionsoft.commons.list.worker;
 
 import nl.unionsoft.commons.converter.Converter;
 import nl.unionsoft.commons.converter.ConverterWithConfig;

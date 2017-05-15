@@ -12,6 +12,7 @@ import nl.unionsoft.commons.list.model.ObjectRestriction;
 import nl.unionsoft.commons.list.model.Sort;
 import nl.unionsoft.commons.list.model.Restriction.Rule;
 import nl.unionsoft.commons.list.model.Sort.Direction;
+import nl.unionsoft.commons.list.worker.impl.BeanListRequestWorkerImpl;
 
 import org.junit.Before;
 import org.junit.Ignore;

@@ -1,4 +1,4 @@
-package nl.unionsoft.common.list.taglib;
+package nl.unionsoft.commons.list.taglib;
 
 import org.apache.commons.lang.StringUtils;
 
